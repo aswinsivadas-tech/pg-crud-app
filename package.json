@@ -1,0 +1,39 @@
+{
+  "name": "pg-crud-app",
+  "version": "1.0.0",
+  "description": "A secure REST API built with Node.js, Express, and PostgreSQL using Prisma ORM that enables efficient data management. It includes JWT-based authentication for secure login, role-based access control (RBAC) to restrict user permissions, and full CRUD operations for managing Students and Users.",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js",
+    "dev":"nodemon server.js,"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aswinsivadas-tech/pg-crud-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aswinsivadas-tech/pg-crud-app/issues"
+  },
+  "homepage": "https://github.com/aswinsivadas-tech/pg-crud-app#readme",
+  "dependencies": {
+    "@prisma/client": "^7.6.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "joi": "^18.1.2",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prisma": "^7.6.0"
+  }
+}
